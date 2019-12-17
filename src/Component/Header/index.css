@@ -1,0 +1,54 @@
+body{
+    color: white;
+    box-sizing: border-box;
+}
+
+.block{
+    height: 100vh;
+    width: 100%;
+}
+
+#logo{
+    background-image: url('../../images/mock-logo.png');
+    height: 100px;
+    border-radius: 50%;
+    width: 100px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 150px;
+    margin: 0 25px 0 50px;
+}
+
+#mainCover{
+    background-image: url('../../images/cover3.jpg');
+    /* background-size: 50%; */
+    /* background-position: -400px -400px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu-container{
+    /* margin-left: 50%;     */
+   /* justify-self: flex-end; */
+   margin: 0 50px 0 auto;
+}
+
+header{
+    height: 120px;
+    width: 99.9%;
+    display: flex;   
+    flex-direction: row;
+    flex-wrap: nowrap;
+    /* justify-content: ; */
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+
+}
+
+.white-theme{
+    color: white;
+}
+
+.title-spacing{
+    letter-spacing: 2px;
+}
